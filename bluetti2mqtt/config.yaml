@@ -10,7 +10,7 @@ arch:
   - armhf
   - armv7
   - i386
-image: ghcr.io/jesherman/{arch}-addon-bluetti2mqtt
+# image: ghcr.io/jesherman/{arch}-addon-bluetti2mqtt
 host_dbus: true
 usb: true
 map:
@@ -40,3 +40,4 @@ schema:
   poll_sec: int
   scan: bool
   debug: bool
+
